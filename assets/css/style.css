@@ -41,12 +41,12 @@ a{
 }
 /* ==========header========= */
 header{
-    padding: 28px 0 13px;
-    position: sticky;
-    top: -15px;
-    background: var(--color-white);
+    margin-top: 15px;
 }
-.header .container{
+.header__top{
+    padding: 13px 0 13px;
+    position: sticky;
+    background: var(--color-white);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -85,4 +85,303 @@ a.navbar__active::before{
     height: 1px;
     border-radius: 50%;
     background: linear-gradient(18deg, #FFF 0%, #DDDCDC 51.25%, rgba(212, 212, 212, 0.00) 100%);
+}
+/* ===========hero-header=========== */
+.header__hero{
+    position: relative;
+    margin-top: 28px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero__content{
+    width: 420px;
+}
+.hero__title{
+    color: var(--color-black);
+    font-size: 5rem;
+    font-family: Public Sans;
+    font-weight: 800;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+.hero__desc{
+    color: var(--color-gray);
+    font-size: 1.8rem;
+    font-family: Public Sans;
+    font-weight: 500;
+    line-height: 1.56;
+    margin-bottom: 42px;
+}
+.watch-video,
+.hero__group-btn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.watch-video:hover .watch__btn{
+    transform: rotate(495deg);
+    border: 4px solid var(--color-black);
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+}
+.watch-video:hover .watch__play{
+    transform: rotate(-135deg);
+}
+.watch-video:hover .video__content{
+    color: var(--color-gray);
+}
+.watch__btn{
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 4px solid var(--color-gray);
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    transform: rotate(-45deg);
+    transition: 1.25s;
+}
+.watch__circle{
+    position: absolute;
+    border-radius: 50%;
+    background: #83A17D;
+    width: 44px;
+    height: 44px;
+    top: 4px;
+    left: 4px;
+}
+.watch__play{
+    position: absolute;
+    top: 18px;
+    left: 18px;
+    transform: rotate(45deg);
+}
+.video__content{
+    transition: 0.25s;
+    margin-left: 9px;
+    color:var(--color-black);
+    font-size: 1.8rem;
+    font-family: Poppins;
+    font-weight: 600;
+}
+.hero__image--bg{
+    position: absolute;
+    top: 271px;
+    left: 323px;
+    width: 140px;
+    height: 140px;
+    border-radius: 340px;
+    background: #00ffb3;
+    filter: blur(137px);
+    z-index: 0;
+}
+.hero__img--start,
+.hero__img--mid,
+.hero__img--end{
+    position: absolute;
+    width: 202px;
+    height: 466px;
+    border-radius: 110px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+.hero__img--start{
+    top: 0;
+    left: 0;
+}
+.hero__img--mid
+{
+    margin-top: 77px;
+    bottom: 0;
+    left: 222px;
+}
+.hero__img--end{
+    top: 0;right: 0;
+    margin-right: 0;
+}
+.hero__image{
+    margin-top: 32px;
+    height: 543px;
+    width: 646px;
+    position: relative;
+}
+.hero__decorate{
+    position: absolute;
+
+}
+.decorate-before{
+    left: 254px;
+    top: 0;
+}
+.decorate-after {
+    transform: rotate(180deg);
+    bottom: -56px;
+    right: 12px;
+}
+.body{
+    margin-top: 65px;
+}
+/* =======================partner=================== */
+.partner{
+    margin-top: 42px;
+}
+.partner__row{
+    margin: 130px 0 53px;
+    padding: 0  121px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 201px;
+    width: 100%;
+    background: #E2EDDF;
+    border-radius: 100.5px;
+}
+.partner__text--google{
+    color: #143C3C;
+    font-size: 3.1rem;
+    font-family: Poppins;
+    font-weight: 500;
+}
+.partner__text--slack{
+    color:#143C3C;
+    font-size: 3.2rem;
+    font-family: Poppins;
+    font-weight: 600;
+}
+.partner__text--discord{
+    font-family: Poppins;
+    font-size: 2.6rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #163C35;
+}
+.partner__text--riotino{
+    color: #143C3C;
+    font-size: 2.3rem;
+    font-family: Sonsie One;
+    font-weight: 400;
+}
+.partner__text--heroku{
+    color:  #143C3C;
+    font-size: 1.9rem;
+    font-family: Poppins;
+    font-weight: 600;
+    letter-spacing: 1.995px;
+}
+.partner__logo{
+    display: inline-flex;
+    align-items: center;
+}
+.partner__img.slack--logo{
+    margin-right: 5px;
+}
+.partner__img.discord--logo{
+    margin-right: 11px;
+}
+.partner__img.heroku--logo{
+    margin-right: 14px;
+    
+}
+/* service */
+.service{
+    padding: 86px 0;
+}
+.service__group-btn{
+    display: flex;
+    gap: 17px;
+    margin-right: 73px;
+}
+.service__btn.next__btn{
+    transform: rotate(180deg);
+}
+
+.service__btn{
+    transition: 0.5s;
+    border: none;
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.service__btn:hover{
+    background: #143C3C;
+    color: #fff;
+}
+.service__heading{
+    font-family: var(--font-poppins);
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: var(--color-black);
+    margin-bottom: 12px;
+    display: inline-block;
+}
+.service__heading::before{
+    content: "";
+    position: relative;
+    bottom: 11px;
+    margin-right: 21px;
+    display: inline-block;
+    width: 25px;
+    height: 1px;
+    background: var(--color-black);
+
+}
+.service__title{
+    font-weight: 600;
+    font-family: var(--font-poppins);
+    color: var(--color-black);
+    font-size: 4.2rem;
+    line-height: 1.24;
+    width: 45.6%;
+}
+.service__title::after{
+    content: "";
+    position: relative;
+    display: inline-block;
+    width: 66px;
+    height: 2px;
+    background: var(--color-black);
+    left: 16px;
+    bottom: 8.5px;
+}
+.service__row{
+    display: flex;
+    justify-content: space-between;
+}
+.service__list{
+    margin-top: 76px;
+    display: flex;
+    justify-content: space-between;
+}
+.service__items{
+    width: 370px;
+    height: 454px;
+    border-radius: 20px 20px 0 0;
+    padding-bottom: 5px;
+}
+.service__thumb{
+    width: 100%;
+    height: 318px;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+}
+.service__items--title{
+    color: var(--color-black);
+    font-size: 2.2rem;
+    font-family: var(--font-poppins);
+    font-weight: 600;
+    line-height: 1;
+    margin: 24px 0 18px;
+}
+.service__items--desc{
+    font-weight: 500;
+    font-size: 1.4rem;
+    color: var(--color-gray);
+    font-family: var(--font-poppins);
+    line-height: 1.7;
+    padding-right: 76px;
 }

@@ -1,54 +1,363 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>modulars</title>
-    <link rel="apple-touch-icon" sizes="57x57" href="./assets/favicon/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="./assets/favicon/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="./assets/favicon/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="./assets/favicon/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="./assets/favicon/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="./assets/favicon/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="./assets/favicon/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="./assets/favicon/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="./assets/favicon/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="./assets/favicon/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png">
-    <link rel="manifest" href="./assets/favicon/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-    <meta name="theme-color" content="#ffffff">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Public+Sans:wght@400;500;600;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./assets/css/reset.css">
-    <link rel="stylesheet" href="./assets/css/style.css">
-</head>
-<body>
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="./assets/favicon/apple-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="./assets/favicon/apple-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="./assets/favicon/apple-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="./assets/favicon/apple-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="./assets/favicon/apple-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="./assets/favicon/apple-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="./assets/favicon/apple-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="./assets/favicon/apple-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./assets/favicon/apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="./assets/favicon/android-icon-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="./assets/favicon/favicon-96x96.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./assets/favicon/manifest.json" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
+    <meta name="theme-color" content="#ffffff" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Public+Sans:wght@400;500;600;800&family=Sonsie+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+
+  <body>
     <header class="header">
-        <div class="container">
-            <img src="./assets/image/icon/logo_page.svg" alt="logo-page" class="logo-page">
-            <nav class="navbar">
-                <ul class="navbar__list">
-                    <li class="navbar__items">
-                        <a href="" class="navbar__link ">Home</a>
-                    </li>
-                    <li class="navbar__items">
-                        <a href="" class="navbar__link navbar__active">About</a>
-                    </li>
-                    <li class="navbar__items">
-                        <a href="" class="navbar__link">Blog</a>
-                    </li>
-                    <li class="navbar__items">
-                        <a href="" class="navbar__link">Contact</a>
-                    </li>
-                </ul>
-            </nav>
-            <button class="btn_sign-up btn">Sign Up</button>
-            <div class="header__line"></div>
+      <div class="container">
+        <div class="header__top">
+          <img
+            src="./assets/image/icon/logo_page.svg"
+            alt="logo-page"
+            class="logo-page"
+          />
+          <nav class="navbar">
+            <ul class="navbar__list">
+              <li class="navbar__items">
+                <a href="" class="navbar__link">Home</a>
+              </li>
+              <li class="navbar__items">
+                <a href="" class="navbar__link navbar__active">About</a>
+              </li>
+              <li class="navbar__items">
+                <a href="" class="navbar__link">Blog</a>
+              </li>
+              <li class="navbar__items">
+                <a href="" class="navbar__link">Contact</a>
+              </li>
+            </ul>
+          </nav>
+          <button class="btn_sign-up btn">Sign Up</button>
+          <div class="header__line"></div>
         </div>
+        <section class="header__hero">
+          <section class="hero__content">
+            <h2 class="hero__title">We’re a creative design agency.</h2>
+            <p class="hero__desc">
+              A brilliant, modular agency template for startup’s build yours
+              toady.
+            </p>
+            <div class="hero__group-btn">
+              <button class="hero__btn btn">Get in touch</button>
+              <div class="watch-video">
+                <div class="watch__btn">
+                  <div class="watch__circle">
+                    <img
+                      src="./assets/image/icon/play-btn.svg"
+                      alt="play"
+                      class="watch__play"
+                    />
+                  </div>
+                </div>
+                <h3 class="video__content">Watch Video</h3>
+              </div>
+            </div>
+          </section>
+          <figure class="hero__image">
+            <div class="hero__image--bg"></div>
+            <img
+              src="./assets/image/office.jpg"
+              alt="heroimg"
+              class="hero__img--start"
+            />
+            <img
+              src="./assets/image/office2.jpg"
+              alt="heroimg"
+              class="hero__img--mid"
+            />
+            <img
+              src="./assets/image/office3.jpg"
+              alt="heroimg"
+              class="hero__img--end"
+            />
+          </figure>
+          <figure class="hero__decorate decorate-before">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              width="581.33"
+              height="362.17"
+              viewBox="0 0 581.33 362.17"
+            >
+              <defs>
+                <linearGradient
+                  id="a"
+                  x1="-229.12"
+                  y1="30.4"
+                  x2="359.88"
+                  y2="-338.6"
+                  gradientTransform="matrix(1, 0, 0, -1, 0, 74)"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop offset="0" />
+                  <stop offset="0.55" stop-color="#fff" />
+                  <stop offset="1" stop-opacity="0" />
+                </linearGradient>
+              </defs>
+              <path
+                d="M395.54,500.47c-34,1.5-97.5-15.4-79.5-95C338.54,306,332.54,303,191,285S19,205,49,162.47c25.26-35.76,123.5-38.5,112,54S-59,341-149.46,188"
+                transform="translate(185.77 -138.89)"
+                fill="none"
+                stroke="url(#a)"
+              />
+              <path
+                d="M-145.2,152.65l3,.49-4.42,26.77a8.62,8.62,0,0,1,1.12.49l16.57-20,2.31,1.91-16.52,19.93a8.53,8.53,0,0,1,.82,1.08l24.71-9.9,1.12,2.78-24.68,9.89a8.32,8.32,0,0,1,.19,2.29l26.66,4.76-.53,2.95-26.82-4.79a8.32,8.32,0,0,1-.7,1.28l21.35,17.22-1.88,2.34-21.54-17.38a9.31,9.31,0,0,1-1.16.72L-135,221.55l-2.77,1.13-10.76-26.31a8.49,8.49,0,0,1-.88,0L-154,224.18l-3-.49,4.59-27.76a8.36,8.36,0,0,1-1.54-.73l-18.7,22.56-2.31-1.92,18.75-22.62a8.64,8.64,0,0,1-.61-.88L-183.37,203l-1.11-2.78,26.62-10.67a8.45,8.45,0,0,1-.14-1.14l-27.77-5,.53-3,27.6,4.93c.11-.33.23-.65.37-1L-179,166.94l1.88-2.33L-155.58,182a7.67,7.67,0,0,1,.86-.76L-165,156l2.78-1.14L-152,179.81a8.52,8.52,0,0,1,2.43-.39Z"
+                transform="translate(185.77 -138.89)"
+                fill="#83a17d"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </figure>
+          <figure class="hero__decorate decorate-after">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              width="581.33"
+              height="362.17"
+              viewBox="0 0 581.33 362.17"
+            >
+              <defs>
+                <linearGradient
+                  id="a"
+                  x1="-229.12"
+                  y1="30.4"
+                  x2="359.88"
+                  y2="-338.6"
+                  gradientTransform="matrix(1, 0, 0, -1, 0, 74)"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop offset="0" />
+                  <stop offset="0.55" stop-color="#fff" />
+                  <stop offset="1" stop-opacity="0" />
+                </linearGradient>
+              </defs>
+              <path
+                d="M395.54,500.47c-34,1.5-97.5-15.4-79.5-95C338.54,306,332.54,303,191,285S19,205,49,162.47c25.26-35.76,123.5-38.5,112,54S-59,341-149.46,188"
+                transform="translate(185.77 -138.89)"
+                fill="none"
+                stroke="url(#a)"
+              />
+              <path
+                d="M-145.2,152.65l3,.49-4.42,26.77a8.62,8.62,0,0,1,1.12.49l16.57-20,2.31,1.91-16.52,19.93a8.53,8.53,0,0,1,.82,1.08l24.71-9.9,1.12,2.78-24.68,9.89a8.32,8.32,0,0,1,.19,2.29l26.66,4.76-.53,2.95-26.82-4.79a8.32,8.32,0,0,1-.7,1.28l21.35,17.22-1.88,2.34-21.54-17.38a9.31,9.31,0,0,1-1.16.72L-135,221.55l-2.77,1.13-10.76-26.31a8.49,8.49,0,0,1-.88,0L-154,224.18l-3-.49,4.59-27.76a8.36,8.36,0,0,1-1.54-.73l-18.7,22.56-2.31-1.92,18.75-22.62a8.64,8.64,0,0,1-.61-.88L-183.37,203l-1.11-2.78,26.62-10.67a8.45,8.45,0,0,1-.14-1.14l-27.77-5,.53-3,27.6,4.93c.11-.33.23-.65.37-1L-179,166.94l1.88-2.33L-155.58,182a7.67,7.67,0,0,1,.86-.76L-165,156l2.78-1.14L-152,179.81a8.52,8.52,0,0,1,2.43-.39Z"
+                transform="translate(185.77 -138.89)"
+                fill="#83a17d"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </figure>
+        </section>
+      </div>
     </header>
-</body>
+    <main class="body">
+      <section class="partner">
+        <div class="container">
+          <div class="partner__row">
+            <span class="partner__text--google"> google </span>
+            <div class="partner__logo">
+              <img
+                src="./assets/image/icon/slack.svg"
+                alt="slack"
+                class="partner__img slack--logo"
+              />
+              <span class="partner__text--slack"> slack </span>
+            </div>
+            <div class="partner__logo">
+              <img
+                src="./assets/image/icon/discord.svg"
+                alt="discord"
+                class="partner__img discord--logo"
+              />
+              <span class="partner__text--discord"> Agworld </span>
+            </div>
+            <span class="partner__text--riotino"> RioTinto </span>
+            <div class="partner__logo">
+              <img
+                src="./assets/image/icon/heroku.svg"
+                alt="heroku"
+                class="partner__img heroku--logo"
+              />
+              <span class="partner__text--heroku"> HEROKU </span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="service">
+        <div class="container">
+          <div class="service__header">
+            <span class="service__heading">OUR SERVICES</span>
+            <div class="service__row">
+              <h2 class="service__title">
+                We offer a wide range of design services
+              </h2>
+              <div class="service__group-btn">
+                <button class="service__btn pre__btn">
+                  <svg
+                    width="22"
+                    height="13"
+                    viewBox="0 0 22 13"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M21 6.82353H0.999999M0.999999 6.82353L6.29412 1M0.999999 6.82353L6.29412 12"
+                      stroke="currentcolor"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </button>
+                <button class="service__btn next__btn">
+                  <svg
+                    width="22"
+                    height="13"
+                    viewBox="0 0 22 13"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M21 6.82353H0.999999M0.999999 6.82353L6.29412 1M0.999999 6.82353L6.29412 12"
+                      stroke="currentcolor"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <div class="service__list">
+              <section class="service__items">
+                <figure>
+                  <img
+                    src="./assets/image/office6.jpg"
+                    alt="service__img"
+                    class="service__thumb"
+                  />
+                </figure>
+                <h3 class="service__items--title">Branding</h3>
+                <p class="service__items--desc">
+                  Create beautiful Agency website with Boluethat converts more
+                  visitors than any website.
+                </p>
+              </section>
+              <section class="service__items">
+                <figure>
+                  <img
+                    src="./assets/image/office2.jpg"
+                    alt="service__img"
+                    class="service__thumb"
+                  />
+                </figure>
+                <h3 class="service__items--title">Web Design</h3>
+                <p class="service__items--desc">
+                  Create beautiful Agency website with Boluethat converts more
+                  visitors than any website.
+                </p>
+              </section>
+              <section class="service__items">
+                <figure>
+                  <img
+                    src="./assets/image/office5.jpg"
+                    alt="service__img"
+                    class="service__thumb"
+                  />
+                </figure>
+                <h3 class="service__items--title">Graphic Design</h3>
+                <p class="service__items--desc">
+                  Create beautiful Agency website with Boluethat converts more
+                  visitors than any website.
+                </p>
+              </section>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+    </main>
+  </body>
 </html>
