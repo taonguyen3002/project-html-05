@@ -1,668 +1,535 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>modulars</title>
-    <link
-      rel="apple-touch-icon"
-      sizes="57x57"
-      href="./assets/favicon/apple-icon-57x57.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="60x60"
-      href="./assets/favicon/apple-icon-60x60.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="72x72"
-      href="./assets/favicon/apple-icon-72x72.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="76x76"
-      href="./assets/favicon/apple-icon-76x76.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="114x114"
-      href="./assets/favicon/apple-icon-114x114.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="120x120"
-      href="./assets/favicon/apple-icon-120x120.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="144x144"
-      href="./assets/favicon/apple-icon-144x144.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="152x152"
-      href="./assets/favicon/apple-icon-152x152.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="./assets/favicon/apple-icon-180x180.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="192x192"
-      href="./assets/favicon/android-icon-192x192.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./assets/favicon/favicon-32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="96x96"
-      href="./assets/favicon/favicon-96x96.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="./assets/favicon/favicon-16x16.png"
-    />
-    <link rel="manifest" href="./assets/favicon/manifest.json" />
-    <meta name="msapplication-TileColor" content="#ffffff" />
-    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
-    <meta name="theme-color" content="#ffffff" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Public+Sans:wght@400;500;600;800&family=Sonsie+One&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./assets/css/reset.css" />
-    <link rel="stylesheet" href="./assets/css/style.css" />
-  </head>
 
-  <body>
-    <header class="header">
-      <div class="container">
-        <div class="header__top">
-          <img
-            src="./assets/image/icon/logo_page.svg"
-            alt="logo-page"
-            class="logo-page"
-          />
-          <nav class="navbar">
-            <ul class="navbar__list">
-              <li class="navbar__items">
-                <a href="" class="navbar__link">Home</a>
-              </li>
-              <li class="navbar__items">
-                <a href="" class="navbar__link navbar__active">About</a>
-              </li>
-              <li class="navbar__items">
-                <a href="" class="navbar__link">Blog</a>
-              </li>
-              <li class="navbar__items">
-                <a href="" class="navbar__link">Contact</a>
-              </li>
-            </ul>
-          </nav>
-          <button class="btn_sign-up btn">Sign Up</button>
-          <div class="header__line"></div>
-        </div>
-        <section class="header__hero">
-          <section class="hero__content">
-            <h2 class="hero__title">We’re a creative design agency.</h2>
-            <p class="hero__desc">
-              A brilliant, modular agency template for startup’s build yours
-              toady.
-            </p>
-            <div class="hero__group-btn">
-              <button class="hero__btn btn">Get in touch</button>
-              <div class="watch-video">
-                <div class="watch__btn">
-                  <div class="watch__circle">
-                    <img
-                      src="./assets/image/icon/play-btn.svg"
-                      alt="play"
-                      class="watch__play"
-                    />
-                  </div>
+<head>
+  <meta charset="UTF-8" />
+  <title>modulars</title>
+  <link rel="apple-touch-icon" sizes="57x57" href="./assets/favicon/apple-icon-57x57.png" />
+  <link rel="apple-touch-icon" sizes="60x60" href="./assets/favicon/apple-icon-60x60.png" />
+  <link rel="apple-touch-icon" sizes="72x72" href="./assets/favicon/apple-icon-72x72.png" />
+  <link rel="apple-touch-icon" sizes="76x76" href="./assets/favicon/apple-icon-76x76.png" />
+  <link rel="apple-touch-icon" sizes="114x114" href="./assets/favicon/apple-icon-114x114.png" />
+  <link rel="apple-touch-icon" sizes="120x120" href="./assets/favicon/apple-icon-120x120.png" />
+  <link rel="apple-touch-icon" sizes="144x144" href="./assets/favicon/apple-icon-144x144.png" />
+  <link rel="apple-touch-icon" sizes="152x152" href="./assets/favicon/apple-icon-152x152.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-icon-180x180.png" />
+  <link rel="icon" type="image/png" sizes="192x192" href="./assets/favicon/android-icon-192x192.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="96x96" href="./assets/favicon/favicon-96x96.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png" />
+  <link rel="manifest" href="./assets/favicon/manifest.json" />
+  <meta name="msapplication-TileColor" content="#ffffff" />
+  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
+  <meta name="theme-color" content="#ffffff" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Public+Sans:wght@400;500;600;800&family=Sonsie+One&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="./assets/css/reset.css" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header__top">
+        <img src="./assets/image/icon/logo_page.svg" alt="logo-page" class="logo-page" />
+        <nav class="navbar">
+          <ul class="navbar__list">
+            <li class="navbar__items">
+              <a href="" class="navbar__link">Home</a>
+            </li>
+            <li class="navbar__items">
+              <a href="" class="navbar__link navbar__active">About</a>
+            </li>
+            <li class="navbar__items">
+              <a href="" class="navbar__link">Blog</a>
+            </li>
+            <li class="navbar__items">
+              <a href="" class="navbar__link">Contact</a>
+            </li>
+          </ul>
+        </nav>
+        <button class="btn_sign-up btn">Sign Up</button>
+        <div class="header__line"></div>
+      </div>
+      <section class="header__hero">
+        <section class="hero__content">
+          <h2 class="hero__title">We’re a creative design agency.</h2>
+          <p class="hero__desc">
+            A brilliant, modular agency template for startup’s build yours
+            toady.
+          </p>
+          <div class="hero__group-btn">
+            <button class="hero__btn btn">Get in touch</button>
+            <div class="watch-video">
+              <div class="watch__btn">
+                <div class="watch__circle">
+                  <img src="./assets/image/icon/play-btn.svg" alt="play" class="watch__play" />
                 </div>
-                <h3 class="video__content">Watch Video</h3>
+              </div>
+              <h3 class="video__content">Watch Video</h3>
+            </div>
+          </div>
+        </section>
+        <figure class="hero__image">
+          <div class="hero__image--bg"></div>
+          <img src="./assets/image/office.jpg" alt="heroimg" class="hero__img--start" />
+          <img src="./assets/image/office2.jpg" alt="heroimg" class="hero__img--mid" />
+          <img src="./assets/image/office3.jpg" alt="heroimg" class="hero__img--end" />
+        </figure>
+        <figure class="hero__decorate decorate-before">
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="581.33"
+            height="362.17" viewBox="0 0 581.33 362.17">
+            <defs>
+              <linearGradient id="a" x1="-229.12" y1="30.4" x2="359.88" y2="-338.6"
+                gradientTransform="matrix(1, 0, 0, -1, 0, 74)" gradientUnits="userSpaceOnUse">
+                <stop offset="0" />
+                <stop offset="0.55" stop-color="#fff" />
+                <stop offset="1" stop-opacity="0" />
+              </linearGradient>
+            </defs>
+            <path
+              d="M395.54,500.47c-34,1.5-97.5-15.4-79.5-95C338.54,306,332.54,303,191,285S19,205,49,162.47c25.26-35.76,123.5-38.5,112,54S-59,341-149.46,188"
+              transform="translate(185.77 -138.89)" fill="none" stroke="url(#a)" />
+            <path
+              d="M-145.2,152.65l3,.49-4.42,26.77a8.62,8.62,0,0,1,1.12.49l16.57-20,2.31,1.91-16.52,19.93a8.53,8.53,0,0,1,.82,1.08l24.71-9.9,1.12,2.78-24.68,9.89a8.32,8.32,0,0,1,.19,2.29l26.66,4.76-.53,2.95-26.82-4.79a8.32,8.32,0,0,1-.7,1.28l21.35,17.22-1.88,2.34-21.54-17.38a9.31,9.31,0,0,1-1.16.72L-135,221.55l-2.77,1.13-10.76-26.31a8.49,8.49,0,0,1-.88,0L-154,224.18l-3-.49,4.59-27.76a8.36,8.36,0,0,1-1.54-.73l-18.7,22.56-2.31-1.92,18.75-22.62a8.64,8.64,0,0,1-.61-.88L-183.37,203l-1.11-2.78,26.62-10.67a8.45,8.45,0,0,1-.14-1.14l-27.77-5,.53-3,27.6,4.93c.11-.33.23-.65.37-1L-179,166.94l1.88-2.33L-155.58,182a7.67,7.67,0,0,1,.86-.76L-165,156l2.78-1.14L-152,179.81a8.52,8.52,0,0,1,2.43-.39Z"
+              transform="translate(185.77 -138.89)" fill="#83a17d" fill-rule="evenodd" />
+          </svg>
+        </figure>
+        <figure class="hero__decorate decorate-after">
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="581.33"
+            height="362.17" viewBox="0 0 581.33 362.17">
+            <defs>
+              <linearGradient id="a" x1="-229.12" y1="30.4" x2="359.88" y2="-338.6"
+                gradientTransform="matrix(1, 0, 0, -1, 0, 74)" gradientUnits="userSpaceOnUse">
+                <stop offset="0" />
+                <stop offset="0.55" stop-color="#fff" />
+                <stop offset="1" stop-opacity="0" />
+              </linearGradient>
+            </defs>
+            <path
+              d="M395.54,500.47c-34,1.5-97.5-15.4-79.5-95C338.54,306,332.54,303,191,285S19,205,49,162.47c25.26-35.76,123.5-38.5,112,54S-59,341-149.46,188"
+              transform="translate(185.77 -138.89)" fill="none" stroke="url(#a)" />
+            <path
+              d="M-145.2,152.65l3,.49-4.42,26.77a8.62,8.62,0,0,1,1.12.49l16.57-20,2.31,1.91-16.52,19.93a8.53,8.53,0,0,1,.82,1.08l24.71-9.9,1.12,2.78-24.68,9.89a8.32,8.32,0,0,1,.19,2.29l26.66,4.76-.53,2.95-26.82-4.79a8.32,8.32,0,0,1-.7,1.28l21.35,17.22-1.88,2.34-21.54-17.38a9.31,9.31,0,0,1-1.16.72L-135,221.55l-2.77,1.13-10.76-26.31a8.49,8.49,0,0,1-.88,0L-154,224.18l-3-.49,4.59-27.76a8.36,8.36,0,0,1-1.54-.73l-18.7,22.56-2.31-1.92,18.75-22.62a8.64,8.64,0,0,1-.61-.88L-183.37,203l-1.11-2.78,26.62-10.67a8.45,8.45,0,0,1-.14-1.14l-27.77-5,.53-3,27.6,4.93c.11-.33.23-.65.37-1L-179,166.94l1.88-2.33L-155.58,182a7.67,7.67,0,0,1,.86-.76L-165,156l2.78-1.14L-152,179.81a8.52,8.52,0,0,1,2.43-.39Z"
+              transform="translate(185.77 -138.89)" fill="#83a17d" fill-rule="evenodd" />
+          </svg>
+        </figure>
+      </section>
+    </div>
+  </header>
+  <main class="body">
+    <section class="partner">
+      <div class="container">
+        <div class="partner__row">
+          <span class="partner__text--google"> google </span>
+          <div class="partner__logo">
+            <img src="./assets/image/icon/slack.svg" alt="slack" class="partner__img slack--logo" />
+            <span class="partner__text--slack"> slack </span>
+          </div>
+          <div class="partner__logo">
+            <img src="./assets/image/icon/discord.svg" alt="discord" class="partner__img discord--logo" />
+            <span class="partner__text--discord"> Agworld </span>
+          </div>
+          <span class="partner__text--riotino"> RioTinto </span>
+          <div class="partner__logo">
+            <img src="./assets/image/icon/heroku.svg" alt="heroku" class="partner__img heroku--logo" />
+            <span class="partner__text--heroku"> HEROKU </span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="service">
+      <div class="container">
+        <div class="service__body">
+          <label class="service__heading">OUR SERVICES</label>
+          <div class="service__row">
+            <h2 class="service__title title">
+              We offer a wide range of design services
+            </h2>
+            <div class="service__group-btn">
+              <button class="service__btn pre__btn">
+                <svg width="22" height="13" viewBox="0 0 22 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M21 6.82353H0.999999M0.999999 6.82353L6.29412 1M0.999999 6.82353L6.29412 12"
+                    stroke="currentcolor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </button>
+              <button class="service__btn next__btn">
+                <svg width="22" height="13" viewBox="0 0 22 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M21 6.82353H0.999999M0.999999 6.82353L6.29412 1M0.999999 6.82353L6.29412 12"
+                    stroke="currentcolor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div class="service__list">
+            <section class="service__items">
+              <figure>
+                <img src="./assets/image/office6.jpg" alt="service__img" class="service__thumb" />
+              </figure>
+              <h3 class="service__items--title">Branding</h3>
+              <p class="service__items--desc">
+                Create beautiful Agency website with Boluethat converts more
+                visitors than any website.
+              </p>
+            </section>
+            <section class="service__items">
+              <figure>
+                <img src="./assets/image/office2.jpg" alt="service__img" class="service__thumb" />
+              </figure>
+              <h3 class="service__items--title">Web Design</h3>
+              <p class="service__items--desc">
+                Create beautiful Agency website with Boluethat converts more
+                visitors than any website.
+              </p>
+            </section>
+            <section class="service__items">
+              <figure>
+                <img src="./assets/image/office5.jpg" alt="service__img" class="service__thumb" />
+              </figure>
+              <h3 class="service__items--title">Graphic Design</h3>
+              <p class="service__items--desc">
+                Create beautiful Agency website with Boluethat converts more
+                visitors than any website.
+              </p>
+            </section>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="about">
+      <div class="container">
+        <div class="about__body">
+          <div class="about__group-img">
+            <figure class="about__img">
+              <img src="./assets/image/office.jpg" alt="image" class="about__image" />
+            </figure>
+            <figure class="about__img">
+              <img src="./assets/image/office3.jpg" alt="image" class="about__image" />
+            </figure>
+            <figure class="about__img">
+              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="581.33"
+                height="362.17" viewBox="0 0 581.33 362.17">
+                <defs>
+                  <linearGradient id="a" x1="-229.12" y1="30.4" x2="359.88" y2="-338.6"
+                    gradientTransform="matrix(1, 0, 0, -1, 0, 74)" gradientUnits="userSpaceOnUse">
+                    <stop offset="0" />
+                    <stop offset="0.55" stop-color="#fff" />
+                    <stop offset="1" stop-opacity="0" />
+                  </linearGradient>
+                </defs>
+                <path
+                  d="M395.54,500.47c-34,1.5-97.5-15.4-79.5-95C338.54,306,332.54,303,191,285S19,205,49,162.47c25.26-35.76,123.5-38.5,112,54S-59,341-149.46,188"
+                  transform="translate(185.77 -138.89)" fill="none" stroke="url(#a)" />
+                <path
+                  d="M-145.2,152.65l3,.49-4.42,26.77a8.62,8.62,0,0,1,1.12.49l16.57-20,2.31,1.91-16.52,19.93a8.53,8.53,0,0,1,.82,1.08l24.71-9.9,1.12,2.78-24.68,9.89a8.32,8.32,0,0,1,.19,2.29l26.66,4.76-.53,2.95-26.82-4.79a8.32,8.32,0,0,1-.7,1.28l21.35,17.22-1.88,2.34-21.54-17.38a9.31,9.31,0,0,1-1.16.72L-135,221.55l-2.77,1.13-10.76-26.31a8.49,8.49,0,0,1-.88,0L-154,224.18l-3-.49,4.59-27.76a8.36,8.36,0,0,1-1.54-.73l-18.7,22.56-2.31-1.92,18.75-22.62a8.64,8.64,0,0,1-.61-.88L-183.37,203l-1.11-2.78,26.62-10.67a8.45,8.45,0,0,1-.14-1.14l-27.77-5,.53-3,27.6,4.93c.11-.33.23-.65.37-1L-179,166.94l1.88-2.33L-155.58,182a7.67,7.67,0,0,1,.86-.76L-165,156l2.78-1.14L-152,179.81a8.52,8.52,0,0,1,2.43-.39Z"
+                  transform="translate(185.77 -138.89)" fill="#83a17d" fill-rule="evenodd" />
+              </svg>
+            </figure>
+            <div class="about__background"></div>
+            <article class="about__team">
+              <h3 class="about__sub-title">All Desingners</h3>
+              <p class="about__sub-desc">Total Balance</p>
+              <span class="about__data data__number"> 40% </span>
+              <div class="about__line">
+                <div class="about__line--number"></div>
+              </div>
+              <span class="about__data data__load"> Loding... </span>
+              <div class="about__circle">
+                <div class="about__sub-circle"></div>
+              </div>
+              <div class="about__row">
+                <h4 class="about__row--title">Teams:</h4>
+                <div class="about__row--img">
+                  <figure>
+                    <img src="./assets/image/about_image-1.jpg" alt="" class="about__thumb thumb__first" />
+                  </figure>
+                  <figure>
+                    <img src="./assets/image/about_image-2.jpg" alt="" class="about__thumb" />
+                  </figure>
+                  <figure>
+                    <img src="./assets/image/about_image-3.jpg" alt="" class="about__thumb" />
+                  </figure>
+                  <figure>
+                    <img src="./assets/image/about_image-4.jpg" alt="" class="about__thumb" />
+                  </figure>
+                </div>
+              </div>
+            </article>
+          </div>
+          <section class="about__info">
+            <label class="about__heading">ABOUT US</label>
+            <h2 class="about__title title">
+              We are an extention of your creative team
+            </h2>
+            <p class="about__desc desc__main">
+              At the start of every project, we cusomizea detailed project
+              plan together with you set exectationns ensure alighment and
+              define key milestones and deiverbles.
+            </p>
+            <p class="about__desc desc__sub">
+              <strong class="about__number">48%</strong>
+              Are you strive for two things in design simplicity and clarity.
+              Great design is born of those two things
+            </p>
+            <p class="about__desc desc__sub">
+              <strong class="about__number">26%</strong>
+              Are you strive for two things in design simplicity and clarity.
+              Great design is born of those two things
+            </p>
+          </section>
+        </div>
+      </div>
+    </section>
+    <section class="process">
+      <div class="container">
+        <div class="process__body">
+          <label class="process__headding">OUR PROCESS</label>
+          <h2 class="process__title title">
+            A simple ,yet effective three step process
+          </h2>
+          <article class="process__list">
+            <section class="process__items">
+              <div class="process__item-head">
+                <span class="process__numerical">01.</span>
+                <div class="process__group">
+                  <h3 class="process__subtitle">Project idea</h3>
+                  <a href="" class="process__link">Learn More</a>
+                </div>
+              </div>
+              <p class="process__desc">
+                We customse a ensure aligment and difine key mileones and
+                defiverables experience tells us the best solutions are the
+                ones deated with clients.
+              </p>
+              <img src="./assets/image/process.svg" alt="process" class="process__image" />
+            </section>
+            <section class="process__items">
+              <div class="process__item-head">
+                <span class="process__numerical">02.</span>
+                <div class="process__group">
+                  <h3 class="process__subtitle">Brainstormaing</h3>
+                  <a href="" class="process__link">Learn More</a>
+                </div>
+              </div>
+              <p class="process__desc">
+                We customse a ensure aligment and difine key mileones and
+                defiverables experience tells us the best solutions are the
+                ones deated with clients.
+              </p>
+            </section>
+            <section class="process__items">
+              <div class="process__item-head">
+                <span class="process__numerical">03.</span>
+                <div class="process__group">
+                  <h3 class="process__subtitle">Execution</h3>
+                  <a href="" class="process__link">Learn More</a>
+                </div>
+              </div>
+              <p class="process__desc">
+                We customse a ensure aligment and difine key mileones and
+                defiverables experience tells us the best solutions are the
+                ones deated with clients.
+              </p>
+            </section>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section class="project">
+      <div class="container">
+        <div class="project__body">
+          <section class="project__info">
+            <h2 class="project__title title">
+              A quick glance of our past projects
+            </h2>
+            <div class="project__row">
+              <p class="project__desc">
+                Are you strive for the fast project simplicity and clarity.
+                Great design is born of those two things.
+              </p>
+              <div class="project__ctlink">
+                <a href="#!" class="project__link">Browse all Projects</a>
+                <svg class="project__arrow" width="22" height="13" viewBox="0 0 22 13" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path d="M21 6.82353H0.999999M0.999999 6.82353L6.29412 1M0.999999 6.82353L6.29412 12"
+                    stroke="currentcolor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
               </div>
             </div>
           </section>
-          <figure class="hero__image">
-            <div class="hero__image--bg"></div>
-            <img
-              src="./assets/image/office.jpg"
-              alt="heroimg"
-              class="hero__img--start"
-            />
-            <img
-              src="./assets/image/office2.jpg"
-              alt="heroimg"
-              class="hero__img--mid"
-            />
-            <img
-              src="./assets/image/office3.jpg"
-              alt="heroimg"
-              class="hero__img--end"
-            />
-          </figure>
-          <figure class="hero__decorate decorate-before">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              xmlns:xlink="http://www.w3.org/1999/xlink"
-              width="581.33"
-              height="362.17"
-              viewBox="0 0 581.33 362.17"
-            >
-              <defs>
-                <linearGradient
-                  id="a"
-                  x1="-229.12"
-                  y1="30.4"
-                  x2="359.88"
-                  y2="-338.6"
-                  gradientTransform="matrix(1, 0, 0, -1, 0, 74)"
-                  gradientUnits="userSpaceOnUse"
-                >
-                  <stop offset="0" />
-                  <stop offset="0.55" stop-color="#fff" />
-                  <stop offset="1" stop-opacity="0" />
-                </linearGradient>
-              </defs>
-              <path
-                d="M395.54,500.47c-34,1.5-97.5-15.4-79.5-95C338.54,306,332.54,303,191,285S19,205,49,162.47c25.26-35.76,123.5-38.5,112,54S-59,341-149.46,188"
-                transform="translate(185.77 -138.89)"
-                fill="none"
-                stroke="url(#a)"
-              />
-              <path
-                d="M-145.2,152.65l3,.49-4.42,26.77a8.62,8.62,0,0,1,1.12.49l16.57-20,2.31,1.91-16.52,19.93a8.53,8.53,0,0,1,.82,1.08l24.71-9.9,1.12,2.78-24.68,9.89a8.32,8.32,0,0,1,.19,2.29l26.66,4.76-.53,2.95-26.82-4.79a8.32,8.32,0,0,1-.7,1.28l21.35,17.22-1.88,2.34-21.54-17.38a9.31,9.31,0,0,1-1.16.72L-135,221.55l-2.77,1.13-10.76-26.31a8.49,8.49,0,0,1-.88,0L-154,224.18l-3-.49,4.59-27.76a8.36,8.36,0,0,1-1.54-.73l-18.7,22.56-2.31-1.92,18.75-22.62a8.64,8.64,0,0,1-.61-.88L-183.37,203l-1.11-2.78,26.62-10.67a8.45,8.45,0,0,1-.14-1.14l-27.77-5,.53-3,27.6,4.93c.11-.33.23-.65.37-1L-179,166.94l1.88-2.33L-155.58,182a7.67,7.67,0,0,1,.86-.76L-165,156l2.78-1.14L-152,179.81a8.52,8.52,0,0,1,2.43-.39Z"
-                transform="translate(185.77 -138.89)"
-                fill="#83a17d"
-                fill-rule="evenodd"
-              />
-            </svg>
-          </figure>
-          <figure class="hero__decorate decorate-after">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              xmlns:xlink="http://www.w3.org/1999/xlink"
-              width="581.33"
-              height="362.17"
-              viewBox="0 0 581.33 362.17"
-            >
-              <defs>
-                <linearGradient
-                  id="a"
-                  x1="-229.12"
-                  y1="30.4"
-                  x2="359.88"
-                  y2="-338.6"
-                  gradientTransform="matrix(1, 0, 0, -1, 0, 74)"
-                  gradientUnits="userSpaceOnUse"
-                >
-                  <stop offset="0" />
-                  <stop offset="0.55" stop-color="#fff" />
-                  <stop offset="1" stop-opacity="0" />
-                </linearGradient>
-              </defs>
-              <path
-                d="M395.54,500.47c-34,1.5-97.5-15.4-79.5-95C338.54,306,332.54,303,191,285S19,205,49,162.47c25.26-35.76,123.5-38.5,112,54S-59,341-149.46,188"
-                transform="translate(185.77 -138.89)"
-                fill="none"
-                stroke="url(#a)"
-              />
-              <path
-                d="M-145.2,152.65l3,.49-4.42,26.77a8.62,8.62,0,0,1,1.12.49l16.57-20,2.31,1.91-16.52,19.93a8.53,8.53,0,0,1,.82,1.08l24.71-9.9,1.12,2.78-24.68,9.89a8.32,8.32,0,0,1,.19,2.29l26.66,4.76-.53,2.95-26.82-4.79a8.32,8.32,0,0,1-.7,1.28l21.35,17.22-1.88,2.34-21.54-17.38a9.31,9.31,0,0,1-1.16.72L-135,221.55l-2.77,1.13-10.76-26.31a8.49,8.49,0,0,1-.88,0L-154,224.18l-3-.49,4.59-27.76a8.36,8.36,0,0,1-1.54-.73l-18.7,22.56-2.31-1.92,18.75-22.62a8.64,8.64,0,0,1-.61-.88L-183.37,203l-1.11-2.78,26.62-10.67a8.45,8.45,0,0,1-.14-1.14l-27.77-5,.53-3,27.6,4.93c.11-.33.23-.65.37-1L-179,166.94l1.88-2.33L-155.58,182a7.67,7.67,0,0,1,.86-.76L-165,156l2.78-1.14L-152,179.81a8.52,8.52,0,0,1,2.43-.39Z"
-                transform="translate(185.77 -138.89)"
-                fill="#83a17d"
-                fill-rule="evenodd"
-              />
-            </svg>
-          </figure>
-        </section>
+          <div class="project__group-media">
+            <figure class="project__media">
+              <video src="./assets/image/video_ytb.mp4" controls poster="./assets/image/image__video.png"></video>
+            </figure>
+            <figure class="project__decorate-line">
+              <img src="./assets/image/icon/line-icon.svg" alt="" />
+            </figure>
+            <figure class="project__decorate-flower">
+              <img src="./assets/image/icon/flower-icon.svg" alt="" />
+            </figure>
+          </div>
+        </div>
       </div>
-    </header>
-    <main class="body">
-      <section class="partner">
-        <div class="container">
-          <div class="partner__row">
-            <span class="partner__text--google"> google </span>
-            <div class="partner__logo">
-              <img
-                src="./assets/image/icon/slack.svg"
-                alt="slack"
-                class="partner__img slack--logo"
-              />
-              <span class="partner__text--slack"> slack </span>
-            </div>
-            <div class="partner__logo">
-              <img
-                src="./assets/image/icon/discord.svg"
-                alt="discord"
-                class="partner__img discord--logo"
-              />
-              <span class="partner__text--discord"> Agworld </span>
-            </div>
-            <span class="partner__text--riotino"> RioTinto </span>
-            <div class="partner__logo">
-              <img
-                src="./assets/image/icon/heroku.svg"
-                alt="heroku"
-                class="partner__img heroku--logo"
-              />
-              <span class="partner__text--heroku"> HEROKU </span>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="service">
-        <div class="container">
-          <div class="service__body">
-            <label class="service__heading">OUR SERVICES</label>
-            <div class="service__row">
-              <h2 class="service__title title">
-                We offer a wide range of design services
-              </h2>
-              <div class="service__group-btn">
-                <button class="service__btn pre__btn">
-                  <svg
-                    width="22"
-                    height="13"
-                    viewBox="0 0 22 13"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M21 6.82353H0.999999M0.999999 6.82353L6.29412 1M0.999999 6.82353L6.29412 12"
-                      stroke="currentcolor"
-                      stroke-width="1.5"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    />
-                  </svg>
-                </button>
-                <button class="service__btn next__btn">
-                  <svg
-                    width="22"
-                    height="13"
-                    viewBox="0 0 22 13"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M21 6.82353H0.999999M0.999999 6.82353L6.29412 1M0.999999 6.82353L6.29412 12"
-                      stroke="currentcolor"
-                      stroke-width="1.5"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    />
-                  </svg>
-                </button>
-              </div>
-            </div>
-            <div class="service__list">
-              <section class="service__items">
-                <figure>
-                  <img
-                    src="./assets/image/office6.jpg"
-                    alt="service__img"
-                    class="service__thumb"
-                  />
-                </figure>
-                <h3 class="service__items--title">Branding</h3>
-                <p class="service__items--desc">
-                  Create beautiful Agency website with Boluethat converts more
-                  visitors than any website.
-                </p>
-              </section>
-              <section class="service__items">
-                <figure>
-                  <img
-                    src="./assets/image/office2.jpg"
-                    alt="service__img"
-                    class="service__thumb"
-                  />
-                </figure>
-                <h3 class="service__items--title">Web Design</h3>
-                <p class="service__items--desc">
-                  Create beautiful Agency website with Boluethat converts more
-                  visitors than any website.
-                </p>
-              </section>
-              <section class="service__items">
-                <figure>
-                  <img
-                    src="./assets/image/office5.jpg"
-                    alt="service__img"
-                    class="service__thumb"
-                  />
-                </figure>
-                <h3 class="service__items--title">Graphic Design</h3>
-                <p class="service__items--desc">
-                  Create beautiful Agency website with Boluethat converts more
-                  visitors than any website.
-                </p>
-              </section>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="about">
-        <div class="container">
-          <div class="about__body">
-            <div class="about__group-img">
-              <figure class="about__img">
-                <img
-                  src="./assets/image/office.jpg"
-                  alt="image"
-                  class="about__image"
-                />
-              </figure>
-              <figure class="about__img">
-                <img
-                  src="./assets/image/office3.jpg"
-                  alt="image"
-                  class="about__image"
-                />
-              </figure>
-              <figure class="about__img">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  xmlns:xlink="http://www.w3.org/1999/xlink"
-                  width="581.33"
-                  height="362.17"
-                  viewBox="0 0 581.33 362.17"
-                >
-                  <defs>
-                    <linearGradient
-                      id="a"
-                      x1="-229.12"
-                      y1="30.4"
-                      x2="359.88"
-                      y2="-338.6"
-                      gradientTransform="matrix(1, 0, 0, -1, 0, 74)"
-                      gradientUnits="userSpaceOnUse"
-                    >
-                      <stop offset="0" />
-                      <stop offset="0.55" stop-color="#fff" />
-                      <stop offset="1" stop-opacity="0" />
-                    </linearGradient>
-                  </defs>
-                  <path
-                    d="M395.54,500.47c-34,1.5-97.5-15.4-79.5-95C338.54,306,332.54,303,191,285S19,205,49,162.47c25.26-35.76,123.5-38.5,112,54S-59,341-149.46,188"
-                    transform="translate(185.77 -138.89)"
-                    fill="none"
-                    stroke="url(#a)"
-                  />
-                  <path
-                    d="M-145.2,152.65l3,.49-4.42,26.77a8.62,8.62,0,0,1,1.12.49l16.57-20,2.31,1.91-16.52,19.93a8.53,8.53,0,0,1,.82,1.08l24.71-9.9,1.12,2.78-24.68,9.89a8.32,8.32,0,0,1,.19,2.29l26.66,4.76-.53,2.95-26.82-4.79a8.32,8.32,0,0,1-.7,1.28l21.35,17.22-1.88,2.34-21.54-17.38a9.31,9.31,0,0,1-1.16.72L-135,221.55l-2.77,1.13-10.76-26.31a8.49,8.49,0,0,1-.88,0L-154,224.18l-3-.49,4.59-27.76a8.36,8.36,0,0,1-1.54-.73l-18.7,22.56-2.31-1.92,18.75-22.62a8.64,8.64,0,0,1-.61-.88L-183.37,203l-1.11-2.78,26.62-10.67a8.45,8.45,0,0,1-.14-1.14l-27.77-5,.53-3,27.6,4.93c.11-.33.23-.65.37-1L-179,166.94l1.88-2.33L-155.58,182a7.67,7.67,0,0,1,.86-.76L-165,156l2.78-1.14L-152,179.81a8.52,8.52,0,0,1,2.43-.39Z"
-                    transform="translate(185.77 -138.89)"
-                    fill="#83a17d"
-                    fill-rule="evenodd"
-                  />
-                </svg>
-              </figure>
-              <div class="about__background"></div>
-              <article class="about__team">
-                <h3 class="about__sub-title">All Desingners</h3>
-                <p class="about__sub-desc">Total Balance</p>
-                <span class="about__data data__number"> 40% </span>
-                <div class="about__line">
-                  <div class="about__line--number"></div>
-                </div>
-                <span class="about__data data__load"> Loding... </span>
-                <div class="about__circle">
-                  <div class="about__sub-circle"></div>
-                </div>
-                <div class="about__row">
-                  <h4 class="about__row--title">Teams:</h4>
-                  <div class="about__row--img">
-                    <figure>
-                      <img
-                        src="./assets/image/about_image-1.jpg"
-                        alt=""
-                        class="about__thumb thumb__first"
-                      />
-                    </figure>
-                    <figure>
-                      <img
-                        src="./assets/image/about_image-2.jpg"
-                        alt=""
-                        class="about__thumb"
-                      />
-                    </figure>
-                    <figure>
-                      <img
-                        src="./assets/image/about_image-3.jpg"
-                        alt=""
-                        class="about__thumb"
-                      />
-                    </figure>
-                    <figure>
-                      <img
-                        src="./assets/image/about_image-4.jpg"
-                        alt=""
-                        class="about__thumb"
-                      />
-                    </figure>
-                  </div>
-                </div>
-              </article>
-            </div>
-            <section class="about__info">
-              <label class="about__heading">ABOUT US</label>
-              <h2 class="about__title title">
-                We are an extention of your creative team
-              </h2>
-              <p class="about__desc desc__main">
-                At the start of every project, we cusomizea detailed project
-                plan together with you set exectationns ensure alighment and
-                define key milestones and deiverbles.
-              </p>
-              <p class="about__desc desc__sub">
-                <strong class="about__number">48%</strong>
-                Are you strive for two things in design simplicity and clarity.
-                Great design is born of those two things
-              </p>
-              <p class="about__desc desc__sub">
-                <strong class="about__number">26%</strong>
-                Are you strive for two things in design simplicity and clarity.
-                Great design is born of those two things
-              </p>
-            </section>
-          </div>
-        </div>
-      </section>
-      <section class="process">
-        <div class="container">
-          <div class="process__body">
-            <label class="process__headding">OUR PROCESS</label>
-            <h2 class="process__title title">
-              A simple ,yet effective three step process
+    </section>
+    <section class="feature">
+      <div class="container">
+        <div class="feature__body">
+          <section class="feature__info">
+            <h2 class="feature__title title">
+              Share the features that help your customers
             </h2>
-            <article class="process__list">
-              <section class="process__items">
-                <div class="process__item-head">
-                  <span class="process__numerical">01.</span>
-                  <div class="process__group">
-                    <h3 class="process__subtitle">Project idea</h3>
-                    <a href="" class="process__link">Learn More</a>
-                  </div>
-                </div>
-                <p class="process__desc">
-                  We customse a ensure aligment and difine key mileones and
-                  defiverables experience tells us the best solutions are the
-                  ones deated with clients.
-                </p>
-                <img
-                  src="./assets/image/process.svg"
-                  alt="process"
-                  class="process__image"
-                />
-              </section>
-              <section class="process__items">
-                <div class="process__item-head">
-                  <span class="process__numerical">02.</span>
-                  <div class="process__group">
-                    <h3 class="process__subtitle">Brainstormaing</h3>
-                    <a href="" class="process__link">Learn More</a>
-                  </div>
-                </div>
-                <p class="process__desc">
-                  We customse a ensure aligment and difine key mileones and
-                  defiverables experience tells us the best solutions are the
-                  ones deated with clients.
-                </p>
-              </section>
-              <section class="process__items">
-                <div class="process__item-head">
-                  <span class="process__numerical">03.</span>
-                  <div class="process__group">
-                    <h3 class="process__subtitle">Execution</h3>
-                    <a href="" class="process__link">Learn More</a>
-                  </div>
-                </div>
-                <p class="process__desc">
-                  We customse a ensure aligment and difine key mileones and
-                  defiverables experience tells us the best solutions are the
-                  ones deated with clients.
-                </p>
-              </section>
+            <p class="feature__desc">
+              You already know that the customer experience doesn't end with a
+              sale — it's an ongoing work in progress that companies should be
+              constantly seeking to improve and iterate on.
+            </p>
+          </section>
+          <section class="feature__list">
+            <article class="feature__items">
+              <img src="./assets/image/icon/blog.svg" alt="logo__feature" class="feature__sub-img" />
+              <h3 class="feature__sub-title">Blog</h3>
+              <p class="feature__sub-desc">
+                We’ve researched numerous agencies and complied a list of
+                digital marketing agency blogs you should read to stay ahead
+                of your rivals and succeed online!
+              </p>
             </article>
-          </div>
+            <article class="feature__items">
+              <img src="./assets/image/icon/Documention.svg" alt="logo__feature" class="feature__sub-img" />
+              <h3 class="feature__sub-title">Documention</h3>
+              <p class="feature__sub-desc">
+                In this article, we discuss the different types of
+                documentation, what makes for great technical documentation,
+                and provide examples.
+              </p>
+            </article>
+            <article class="feature__items">
+              <img src="./assets/image/icon/customer.svg" alt="logo__feature" class="feature__sub-img" />
+              <h3 class="feature__sub-title">Customers</h3>
+              <p class="feature__sub-desc">
+                Your customers have high expectations — and if your business
+                can't meet them, they're going to leave you for your
+                competitors.
+              </p>
+            </article>
+          </section>
         </div>
-      </section>
-      <section class="project">
-        <div class="container">
-          <div class="project__body">
-            <section class="project__info">
-              <h2 class="project__title title">
-                A quick glance of our past projects
-              </h2>
-              <div class="project__row">
-                <p class="project__desc">
-                  Are you strive for the fast project simplicity and clarity.
-                  Great design is born of those two things.
-                </p>
-                <div class="project__ctlink">
-                  <a href="#!" class="project__link">Browse all Projects</a>
-                  <svg
-                    class="project__arrow"
-                    width="22"
-                    height="13"
-                    viewBox="0 0 22 13"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M21 6.82353H0.999999M0.999999 6.82353L6.29412 1M0.999999 6.82353L6.29412 12"
-                      stroke="currentcolor"
-                      stroke-width="1.5"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    />
-                  </svg>
-                </div>
+      </div>
+    </section>
+    <section class="blog">
+      <div class="container">
+        <div class="blog__body">
+          <label class="blog__heading">BLOG & ARTICLES</label>
+          <section class="blog__info">
+            <h2 class="blog__title title">
+              Take a look at our latest articles and resources
+            </h2>
+            <p class="blog__desc">
+              The best agency are the ones ideated with clients. we corporate
+              your ideas with memorable
+            </p>
+          </section>
+        </div>
+        <div class="blog__list">
+          <section class="blog__items">
+            <img src="./assets/image/office.jpg" alt="" class="blog__image" />
+            <span class="blog__lable">STORIES</span>
+            <h3 class="blog__sub-title">
+              What did we learn from nunning over 100 design sprints in less
+              the year?
+            </h3>
+            <p class="blog__sub-desc">JANUARY 29, 2022</p>
+          </section>
+          <section class="blog__items">
+            <img src="./assets/image/office4.jpg" alt="" class="blog__image" />
+            <span class="blog__lable">STORIES</span>
+            <h3 class="blog__sub-title">
+              The difference between the UI/UX design a simple guide for
+              beginner’s
+            </h3>
+            <p class="blog__sub-desc">JANUARY 29, 2022</p>
+          </section>
+          <section class="blog__items">
+            <img src="./assets/image/office6.jpg" alt="" class="blog__image" />
+            <span class="blog__lable">STORIES</span>
+            <h3 class="blog__sub-title">
+              How marketing can help your business more than anything.
+            </h3>
+            <p class="blog__sub-desc">JANUARY 29, 2022</p>
+          </section>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__column">
+        <h2 class="social__heading">Sign up for our newsletter</h2>
+        <div class="social__email">
+          <input type="email" form="email" id="email" placeholder="Enter your email" class="socail__email-input" />
+          <a href="#!">
+            <svg class="social__arrow-line" width="22" height="13" viewBox="0 0 22 13" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path d="M21 6.82353H0.999999M0.999999 6.82353L6.29412 1M0.999999 6.82353L6.29412 12" stroke="currentcolor"
+                stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </a>
+          <div class="container__social">
+            <figure class="social__logo">
+              <img src="./assets/image/icon/facebook.svg" alt="" class="social__logo-element">
+            </figure>
+            <div class="social__logo">
+              <div class="instagram__square">
+                <div class="instagram__circle"></div>
               </div>
-            </section>
-            <div class="project__group-media">
-              <figure class="project__media">
-                <video
-                  src="./assets/image/video_ytb.mp4"
-                  controls
-                  poster="./assets/image/image__video.png"
-                ></video>
-              </figure>
-              <figure class="project__decorate-line">
-                <img
-                  src="./assets/image/icon/line-icon.svg"
-                  alt=""
-                  
-                />
-              </figure>
-              <figure class="project__decorate-flower">
-                <img
-                  src="./assets/image/icon/flower-icon.svg"
-                  alt=""
-                  
-                />
-              </figure>
             </div>
+            <figure class="social__logo">
+              <img src="./assets/image/icon/tw.svg" alt="" class="social__logo-element">
+            </figure>
           </div>
         </div>
-      </section>
-      <section class="feature">
-        <div class="container">
-          <div class="feature__body">
-            <section class="feature__info">
-                <h2 class="feature__title title">
-                  Share the features that help your customers
-                </h2>
-                <p class="feature__desc">
-                  You already know that the customer experience doesn't end with a sale — it's an ongoing work in progress that companies should be constantly seeking to improve and iterate on.
-                </p>
-            </section>
-            <section class="feature__list">
-                <article class="feature__items">
-                  <img src="./assets/image/icon/blog.svg" alt="logo__feature" class="feature__sub-img">
-                  <h3 class="feature__sub-title">Blog</h3>
-                  <p class="feature__sub-desc">
-                    We’ve researched numerous agencies and complied a list of digital marketing agency blogs you should read to stay ahead of your rivals and succeed online!
-                  </p>
-                </article>
-                <article class="feature__items">
-                  <img src="./assets/image/icon/Documention.svg" alt="logo__feature" class="feature__sub-img"><h3 class="feature__sub-title">Documention</h3>
-                  <p class="feature__sub-desc">In this article, we discuss the different types of documentation, what makes for great technical documentation, and provide examples.</p>
-                </article>
-                <article class="feature__items">
-                  <img src="./assets/image/icon/customer.svg" alt="logo__feature" class="feature__sub-img"><h3 class="feature__sub-title">Customers</h3>
-                  <p class="feature__sub-desc">Your customers have high expectations — and if your business can't meet them, they're going to leave you for your competitors.</p>
-                </article>
-            </section>
-          </div>
-        </div>
-      </section>
-      <section class="blog">
-        <div class="container">
-          <div class="blog__body">
-            <label  class="blog__heading">BLOG & ARTICLES</label>
-            <section class="blog__info">
-               <h2 class="blog__title title">Take a look at our latest articles and resources</h2>
-               <p class="blog__desc">The best agency are the ones ideated with clients. we corporate your ideas with memorable</p>
-            </section>
-          </div>
-          <div class="blog__list">
-            <section class="blog__items">
-              <img src="./assets/image/office.jpg" alt="" class="blog__image">
-              <span class="blog__lable">STORIES</span>
-              <h3 class="blog__sub-title">What did we learn from nunning over 100 design sprints in less the year?</h3>
-              <p class="blog__sub-desc">JANUARY 29, 2022</p>
-            </section>
-            <section class="blog__items">
-              <img src="./assets/image/office4.jpg" alt="" class="blog__image">
-              <span class="blog__lable">STORIES</span>
-              <h3 class="blog__sub-title">The difference between the UI/UX design a simple guide for beginner’s</h3>
-              <p class="blog__sub-desc">JANUARY 29, 2022</p>
-            </section>
-            <section class="blog__items">
-              <img src="./assets/image/office6.jpg" alt="" class="blog__image">
-              <span class="blog__lable">STORIES</span>
-              <h3 class="blog__sub-title">How marketing can help your business more than anything.</h3>
-              <p class="blog__sub-desc">JANUARY 29, 2022</p>
-            </section>
-          </div>
-        </div>
-      </section>
-    </main>
-  </body>
+      </div>
+      <div class="footer__column">
+        <h3 class="footer__sub-title">Pages</h3>
+        <ul class="footer__list">
+          <li class="footer__items">Home</li>
+          <li class="footer__items">About</li>
+          <li class="footer__items">Blog</li>
+          <li class="footer__items">Blog Post</li>
+        </ul>
+      </div>
+      <div class="footer__column">
+        <h3 class="footer__sub-title">Product</h3>
+        <ul class="footer__list">
+          <li class="footer__items">Home</li>
+          <li class="footer__items">About</li>
+          <li class="footer__items">Blog</li>
+          <li class="footer__items">Blog Post</li>
+        </ul>
+      </div>
+      <div class="footer__column">
+        <h3 class="footer__sub-title">Overview</h3>
+        <ul class="footer__list">
+          <li class="footer__items">Home1</li>
+          <li class="footer__items">Home2</li>
+          <li class="footer__items">Home3</li>
+          <li class="footer__items">Pricing1</li>
+        </ul>
+      </div>
+      <div class="footer__column">
+        <h3 class="footer__sub-title">About us</h3>
+        <ul class="footer__list">
+          <li class="footer__items">Team</li>
+          <li class="footer__items">Investors</li>
+          <li class="footer__items">Blog</li>
+          <li class="footer__items">Press</li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+</body>
+
 </html>

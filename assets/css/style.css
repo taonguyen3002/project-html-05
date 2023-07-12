@@ -1010,3 +1010,111 @@ video {
 .blog__items:hover .blog__sub-desc {
     right: 41px;
 }
+/* footer */
+.footer{
+    background: #143C3C;
+    padding: 72px 0 96px;
+}
+
+.socail__email-input{
+
+    border: none;
+    color: #6A8383;
+    font-family: var(--font-poppins);
+    font-size: 2.2rem;
+    line-height: 1;
+    font-weight: 500;
+    background: #143C3C;
+}
+.social__heading{
+    position: relative;
+    margin-bottom: 25px;
+    color: var(--color-white);
+font-family: var(--font-poppins);
+font-size: 3.2rem;
+font-weight: 500;
+}
+.social__arrow-line{
+    color: #6A8383;
+    transform: rotate(180deg);
+}
+.social__heading::after{
+    content: "";
+    width: 354px;
+    height: 1px;
+    border-radius: 0.5px;
+    background: #6A8383;
+    position: absolute;
+    bottom: -83px;
+    left: 0;
+}
+
+.social__logo:hover{
+    background-color: #A75325;
+    border-color: #A75325;
+}
+.social__logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    border: 1px solid #265252;
+}
+.instagram__square{
+    width: 18px;
+    height: 18px;
+    border: 2px solid #fff;
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.instagram__circle{
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+}
+.container__social{
+    display: flex;
+    gap: 22px;
+    margin-top: 84px;
+}
+
+.footer .container{
+    display: flex;
+    position: relative;
+}
+.footer .container::after{
+    content: "";
+    width: 100%;
+    height: 1px;
+    border-radius: 0.5px;
+    background: linear-gradient(14deg, #143C3C 0%, #295A5A 53.48%, rgba(38, 82, 82, 0.00) 100%);
+    bottom: -45px;
+    position: absolute;
+}
+.footer__sub-title{
+    color: var(--color-white);
+    font-family: var(--font-publicsan);
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+.footer__items{
+    color: #6A8383;
+    font-family: var(--font-publicsan);
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+.footer__column:first-child{
+    margin-right: 225px;
+    margin-top: 0;
+}
+.footer__column{
+    margin-right: 50px;
+    margin-top: 20px;
+}
